@@ -12,7 +12,7 @@ import numpy as np
 #  return app
 
 app = Flask(__name__)
-app.secret_key = "Ma863187"
+app.secret_key = "kaloloisonfire9562358"
 
 
 
