@@ -12,7 +12,7 @@ import numpy as np
 #  return app
 
 app = Flask(__name__)
-app.secret_key = "kaloloisonfire9562358"
+app.secret_key = "asdfxhsdöfkjlsdfjldfjeiedlkjfl2349"
 
 
 
@@ -180,7 +180,7 @@ def greet():
 	flash("Fahrzeuge pro Ladepunkt: " +str(FahrzeugeproLP), 'EingabeGemeinde2')
 	flash("Elektrofahrzeuge pro Ladepunkt: " +str(BEVproLP), 'EingabeGemeinde2')
 	flash("Ladepunkte pro 1000 Einwohner: " +str(LPpro1000Einwohner), 'EingabeGemeinde2')
-	flash("Ladepunkte pro 1000 Elektrofahrzeuge: " +str(besteLPpro1000Fahrzeuge), 'EingabeGemeinde2')
+	flash("Ladepunkte pro 1000 Elektrofahrzeuge: " +str(LPpro1000Fahrzeuge), 'EingabeGemeinde2')
 	flash("Ladepunkte pro 1000 Fahrzeuge: " +str(LPpro1000BEV), 'EingabeGemeinde2')
 
 
@@ -197,9 +197,9 @@ def greet():
 	flash("Einwohner pro Ladepunkt: " +str(besteEinwohnerproLP), 'BesteGemeinde2')
 	flash("Fahrzeuge pro Ladepunkt: " +str(besteFahrzeugeproLP), 'BesteGemeinde2')
 	flash("Elektrofahrzeuge pro Ladepunkt: " +str(besteBEVproLP), 'BesteGemeinde2')
-	flash("Ladestationen pro 1000 Einwohner: " +str(besteLPpro1000Einwohner), 'BesteGemeinde2')
-	flash("Ladestationen pro 1000 Elektrofahrzeuge: " +str(besteLPpro1000Fahrzeuge), 'BesteGemeinde2')
-	flash("Ladestationen pro 1000 Fahrzeuge: " +str(besteLPpro1000BEV), 'BesteGemeinde2')
+	flash("Ladepunkte pro 1000 Einwohner: " +str(besteLPpro1000Einwohner), 'BesteGemeinde2')
+	flash("Ladepunkte pro 1000 Elektrofahrzeuge: " +str(besteLPpro1000Fahrzeuge), 'BesteGemeinde2')
+	flash("Ladepunkte pro 1000 Fahrzeuge: " +str(besteLPpro1000BEV), 'BesteGemeinde2')
 
 
 
